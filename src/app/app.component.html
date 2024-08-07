@@ -1,0 +1,38 @@
+<main class="main">
+  <div class="content">
+    <div class="resume-container">
+        <app-personal-info
+          [name]="'Ерназаров Артем Русланович'"
+          [phone]="'+1234567890'"
+          [city]="'Хмельницький'"
+          [photoUrl]="'my_photo.png'"
+        ></app-personal-info>
+        
+        <app-work-experience
+          [jobs]="[
+            { company: 'Компанія 1', position: 'Позиція 1', period: '2020-2021' },
+            { company: 'Компанія 2', position: 'Позиція 2', period: '2018-2020' }
+          ]"
+        ></app-work-experience>
+      
+        <app-skills
+          [skills]="['Навичка 1', 'Навичка 2']"
+          [certificates]="['Сертифікат 1', 'Сертифікат 2']"
+          [knowledges]="['Знання 1', 'Знання 2']"
+        ></app-skills>
+        
+        <app-links
+          [links]="[
+            { name: 'GitHub', url: 'https://github.com' },
+            { name: 'LinkedIn', url: 'https://linkedin.com' },
+            { name: 'Twitter', url: 'https://twitter.com' }
+          ]"
+        ></app-links>
+
+        <app-extra-info
+          [salary]="1000"
+          [projectsCompletion]="0.75"
+        ></app-extra-info>
+    </div>
+  </div>
+</main>

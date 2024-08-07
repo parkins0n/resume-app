@@ -1,0 +1,9 @@
+<div class="links">
+    <h2>Ресурси</h2>
+    <ul *ngIf="links && links.length">
+      <li *ngFor="let link of links">
+        <a [href]="link.url" target="_blank">{{ link.name }}</a>
+      </li>
+    </ul>
+    <p *ngIf="!links || !links.length">Немає ресурсів.</p>
+</div>

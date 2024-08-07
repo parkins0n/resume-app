@@ -1,0 +1,9 @@
+<div class="extra-info">
+    <h2>Додаткова інформація</h2>
+    <p *ngIf="salary !== undefined">
+        Очікувана зарплата: {{ salary | currency }}
+    </p>
+    <p *ngIf="projectsCompletion !== undefined">
+        Процент завершених проектів: {{ projectsCompletion | percent }}
+    </p>
+</div>

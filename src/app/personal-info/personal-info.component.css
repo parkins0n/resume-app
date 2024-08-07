@@ -1,0 +1,22 @@
+.personal-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+  
+.info-text {
+    padding-left: 20px;
+    max-width: 60%;
+}
+  
+.profile-photo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 20px;
+}

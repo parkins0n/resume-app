@@ -1,0 +1,33 @@
+.links {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.links h2 {
+    padding-left: 20px;
+}
+
+.links ul {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links p {
+    padding-left: 20px
+}
